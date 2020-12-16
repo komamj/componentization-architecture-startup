@@ -73,7 +73,7 @@ afterEvaluate {
             create<MavenPublication>("release") {
                 from(components.findByName("release"))
                 groupId = "com.github.komamj"
-                artifactId = "startup"
+                artifactId = "platform-startup"
                 version = "0.0.1"
             }
         }
